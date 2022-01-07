@@ -7,7 +7,7 @@ import socket
 
 
 def run():
-    host = '192.168.1.154'
+    host = '10.0.2.15'
     port = 1337
     s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
     while True:
